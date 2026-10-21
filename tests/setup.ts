@@ -1,0 +1,10 @@
+process.env.NODE_ENV = "test";
+process.env.DB_HOST = process.env.TEST_DB_HOST ?? "127.0.0.1";
+process.env.DB_PORT = process.env.TEST_DB_PORT ?? "3307";
+process.env.DB_USER = process.env.TEST_DB_USER ?? "root";
+process.env.DB_PASSWORD = process.env.TEST_DB_PASSWORD ?? "";
+process.env.DB_NAME = process.env.TEST_DB_NAME ?? "roes_test";
+process.env.JWT_SECRET = "test-secret-test-secret-test-secret-123";
+process.env.MAYOR_EMAIL = "mayor@test.local";
+process.env.MAYOR_PASSWORD = "Mayor@12345";
+process.env.MAYOR_NAME = "Test Mayor";
